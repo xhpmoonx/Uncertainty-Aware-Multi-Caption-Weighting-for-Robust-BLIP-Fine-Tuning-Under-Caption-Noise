@@ -16,3 +16,15 @@ Large generated datasets, COCO image files, checkpoints, logs, virtual environme
 ## Third-party attribution
 
 Parts of this repository are based on Salesforce BLIP. The BLIP-derived source code is distributed under the BSD 3-Clause License. See `LICENSES/BLIP_BSD_3_CLAUSE_LICENSE.txt` and the source-file headers.
+
+## How to run
+
+This repository contains two implementations:
+
+1. `code/blip_uncertainty_First_Implementation/`  
+   External uncertainty-based caption weighting experiments using HuggingFace BLIP.
+
+2. `code/BLIP_dynamic_Second_Implementation/`  
+   Native weighted-caption training inside the official BLIP training loop.
+
+Large datasets, checkpoints, and generated outputs are not included. Users should download MS COCO and BLIP checkpoints from their official sources and update dataset/checkpoint paths in the configuration files before running experiments.
