@@ -1,0 +1,32 @@
+image_root: './data/coco'
+ann_root: './data/annotations'
+coco_gt_root: './data/coco_gt'
+
+pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_capfilt_large.pth'
+
+vit: 'base'
+vit_grad_ckpt: false
+vit_ckpt_layer: 0
+batch_size: 32
+init_lr: 1e-5
+
+image_size: 384
+
+max_length: 20
+min_length: 5
+num_beams: 3
+prompt: 'a picture of '
+
+weight_decay: 0.05
+min_lr: 0
+max_epoch: 3
+
+weighted_train_json: './data/generated_subsets/coco_train_500_generatedK3_mismatch60_seed123.json'
+max_candidates: 3
+temperature: 1.0
+use_weight_clipping: true
+clip_factor: 0.5
+mlp_hidden_dim: 64
+mlp_dropout: 0.1
+mlp_lr: 1e-4
+train_num_workers: 4

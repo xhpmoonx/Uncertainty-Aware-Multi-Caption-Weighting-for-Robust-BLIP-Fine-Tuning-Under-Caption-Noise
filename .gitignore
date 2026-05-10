@@ -1,0 +1,35 @@
+# macOS / system
+.DS_Store
+__MACOSX/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training artifacts / large generated files
+logs/
+output/
+outputs/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Datasets / generated subsets
+coco_work/subsets/
+data/raw/
+data/images/
+*.zip
+
+# Secrets / local configs
+.env*
+wandb/
