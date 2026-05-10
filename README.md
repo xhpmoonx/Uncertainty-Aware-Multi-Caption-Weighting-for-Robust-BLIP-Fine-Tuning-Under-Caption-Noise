@@ -7,8 +7,6 @@ This repository contains code, configuration files, and selected result summarie
 - `code/blip_uncertainty_First_Implementation/` — external soft-weighting experiments on top of BLIP.
 - `code/BLIP_dynamic_Second_Implementation/` — modified BLIP training loop with native weighted caption training.
 - `code/BLIP_official_baseline/` — BLIP baseline code/configuration used for comparison.
-- `docs/paper.pdf` — project paper.
-- `docs/slides.pdf` — project slides.
 - `LICENSES/BLIP_BSD_3_CLAUSE_LICENSE.txt` — third-party BLIP license notice.
 
 ## Not included
